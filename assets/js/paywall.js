@@ -16,13 +16,17 @@
   // Admin: replace / extend this map. Each code unlocks a list of item ids.
   // Issue a unique code per paid order for basic control.
   var REDEEM = {
-    HSK2026: ["hsk1", "hsk2"] // demo code — unlocks all sample items
+    HSK2026: ["hsk1", "hsk2", "hsk3", "hsk4", "hsk5", "hsk6"] // demo code — unlocks all sample items
   };
 
   // Item id -> PDF file path (used for preview + download)
   var FILES = {
     hsk1: "assets/pdf/hsk1-sample.pdf",
-    hsk2: "assets/pdf/hsk2-sample.pdf"
+    hsk2: "assets/pdf/hsk2-sample.pdf",
+    hsk3: "assets/pdf/hsk3-sample.pdf",
+    hsk4: "assets/pdf/hsk4-sample.pdf",
+    hsk5: "assets/pdf/hsk5-sample.pdf",
+    hsk6: "assets/pdf/hsk6-sample.pdf"
   };
 
   function getUnlocked() {
