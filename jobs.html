@@ -73,6 +73,54 @@
     </div>
   </section>
 
+  <!-- ============ JOB LISTINGS ============ -->
+  <section class="section section-tight">
+    <div class="wrap">
+      <div class="sec-head text-center" style="margin-bottom:24px;">
+        <span class="eyebrow"><span class="en">Live roles</span><span class="zh">在招职位</span></span>
+        <h2 class="h2"><span class="en">Jobs for Foreigners in China</span><span class="zh">外国人在华职位</span></h2>
+        <p class="lead mx-auto" style="margin-top:10px;">
+          <span class="en">A curated snapshot of roles open to foreign candidates, pulled from major expat job boards.</span>
+          <span class="zh">从主流外媒招聘平台整理的、面向外籍候选人的在招职位快照。</span>
+        </p>
+      </div>
+
+      <div class="job-toolbar">
+        <div class="tb-row">
+          <span class="tb-label"><span class="en">City</span><span class="zh">城市</span></span>
+          <div class="chips" data-filter="city">
+            <button class="chip on" data-val="all"><span class="en">All</span><span class="zh">全部</span></button>
+            <button class="chip" data-val="Beijing">Beijing · 北京</button>
+            <button class="chip" data-val="Shanghai">Shanghai · 上海</button>
+            <button class="chip" data-val="Hangzhou">Hangzhou · 杭州</button>
+            <button class="chip" data-val="Suzhou">Suzhou · 苏州</button>
+            <button class="chip" data-val="Xi'an">Xi'an · 西安</button>
+            <button class="chip" data-val="Guangzhou">Guangzhou · 广州</button>
+            <button class="chip" data-val="Nationwide">Nationwide · 全国</button>
+          </div>
+        </div>
+        <div class="tb-row">
+          <span class="tb-label"><span class="en">Field</span><span class="zh">领域</span></span>
+          <div class="chips" data-filter="cat">
+            <button class="chip on" data-val="all"><span class="en">All</span><span class="zh">全部</span></button>
+            <button class="chip" data-val="teaching"><span class="en">Teaching</span><span class="zh">教学</span></button>
+            <button class="chip" data-val="tech"><span class="en">Tech / IT</span><span class="zh">科技/IT</span></button>
+            <button class="chip" data-val="marketing"><span class="en">Marketing</span><span class="zh">市场</span></button>
+            <button class="chip" data-val="trade"><span class="en">Trade / BD</span><span class="zh">贸易/商务</span></button>
+            <button class="chip" data-val="hospitality"><span class="en">Hospitality</span><span class="zh">酒店</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="job-grid" id="jobGrid"></div>
+
+      <p class="job-note">
+        <span class="en">📌 Snapshot (Aug 2026) curated from public expat job boards — eChinaCities, HiredChina, LinkedIn, 51Job, Boss. Roles shown are representative of what's in demand; verify live openings on those platforms. Auto-updating live feeds need a backend (available on request).</span>
+        <span class="zh">📌 快照（2026 年 8 月）整理自公开外媒招聘平台：eChinaCities、HiredChina、LinkedIn、51Job、Boss。所列职位为热门需求代表，实时空缺请以上述平台为准。自动更新的实时职位流需后端支持（可定制）。</span>
+      </p>
+    </div>
+  </section>
+
   <!-- Work visa -->
   <section class="section section-tight">
     <div class="wrap">
@@ -113,13 +161,70 @@
     </div>
   </section>
 
+  <!-- ============ PREMIUM JOB SERVICES ============ -->
+  <section class="section section-tight" id="services">
+    <div class="wrap">
+      <div class="sec-head text-center" style="margin-bottom:24px;">
+        <span class="eyebrow"><span class="en">Premium · Paid</span><span class="zh">增值 · 付费</span></span>
+        <h2 class="h2"><span class="en">Job Hunting Concierge</span><span class="zh">求职全套管家服务</span></h2>
+        <p class="lead mx-auto" style="margin-top:10px;">
+          <span class="en">From résumé to visa — we handle the hard parts so you can focus on the interview.</span>
+          <span class="zh">从简历到签证，难的事交给我们，你只管面试。</span>
+        </p>
+      </div>
+
+      <div class="svc-premium">
+        <div class="svc-pcard">
+          <div class="sp-ico">📄</div>
+          <h3><span class="en">Résumé Translation</span><span class="zh">简历翻译</span></h3>
+          <p><span class="en">Bilingual CN↔EN résumé, ATS-friendly, with 2 free revisions.</span><span class="zh">中英双语简历，适配 ATS，含 2 次免费修改。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥199</span><button class="buy-btn" data-book="Résumé Translation · 简历翻译"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+        <div class="svc-pcard">
+          <div class="sp-ico">🤝</div>
+          <h3><span class="en">Employer Match &amp; Interview</span><span class="zh">对接雇主约面</span></h3>
+          <p><span class="en">We reach out to employers on your behalf, arrange interviews and prep you.</span><span class="zh">我们代你联系雇主、安排面试，并做面试辅导。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥599</span><button class="buy-btn" data-book="Employer Match & Interview · 对接雇主约面"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+        <div class="svc-pcard">
+          <div class="sp-ico">💰</div>
+          <h3><span class="en">Salary &amp; Benefits Negotiation</span><span class="zh">谈薪资福利待遇</span></h3>
+          <p><span class="en">Negotiate salary, housing, flights and insurance into the best package.</span><span class="zh">帮你谈下薪资、住房、机票与保险，争取最优待遇。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥399</span><button class="buy-btn" data-book="Salary & Benefits Negotiation · 谈薪资福利待遇"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+        <div class="svc-pcard">
+          <div class="sp-ico">🏠</div>
+          <h3><span class="en">Apartment Rental</span><span class="zh">面试后租房</span></h3>
+          <p><span class="en">Find, tour, lease and register your residence (required for the residence permit).</span><span class="zh">找房、看房、签约并完成住宿登记（办理居留许可必需）。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥499</span><button class="buy-btn" data-book="Apartment Rental · 面试后租房"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+        <div class="svc-pcard">
+          <div class="sp-ico">🛂</div>
+          <h3><span class="en">Visa Processing</span><span class="zh">签证办理</span></h3>
+          <p><span class="en">Z visa / work permit / residence permit paperwork, plus K-visa guidance.</span><span class="zh">Z 签 / 工作许可 / 居留许可材料代办，并提供 K 签指导。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥899</span><button class="buy-btn" data-book="Visa Processing · 签证办理"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+        <div class="svc-pcard svc-pcard--pack">
+          <div class="sp-ico">🎁</div>
+          <h3><span class="en">Full Package</span><span class="zh">全包套餐</span></h3>
+          <p><span class="en">All five services above as one bundled concierge — best value.</span><span class="zh">以上五项服务打包为全套管家，性价比最高。</span></p>
+          <div class="sp-foot"><span class="price-pill">¥1,999</span><button class="buy-btn" data-book="Full Package · 全包套餐"><span class="en">Book</span><span class="zh">预约</span></button></div>
+        </div>
+      </div>
+      <p class="job-note" style="text-align:center;">
+        <span class="en">💡 Pay after service — add WeChat "yc" to start. Need a custom combo? Just ask.</span>
+        <span class="zh">💡 先服务后付款——加微信「yc」即可开始。需要定制组合？随时说。</span>
+      </p>
+    </div>
+  </section>
+
   <section class="section">
     <div class="wrap">
       <div class="cta-band">
-        <h2><span class="en">Need help with your application?</span><span class="zh">需要求职协助？</span></h2>
-        <p><span class="en">We review résumés, prep you for interviews, and guide the visa paperwork.</span><span class="zh">我们帮你润色简历、模拟面试，并指导签证材料。</span></p>
+        <h2><span class="en">Need the full concierge?</span><span class="zh">需要全套管家服务？</span></h2>
+        <p><span class="en">From résumé translation to visa paperwork — we handle the hard parts so you can focus on the interview.</span><span class="zh">从简历翻译到签证材料，难的事交给我们，你只管面试。</span></p>
         <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
-          <a class="btn" style="background:#fff;color:var(--ink);" href="hospital.html"><span class="en">Get help</span><span class="zh">获取帮助</span></a>
+          <button class="btn" style="background:#fff;color:var(--ink);" data-book="Job Concierge · 求职管家"><span class="en">Book a service</span><span class="zh">预约服务</span></button>
           <a class="btn btn-ghost" style="background:#fff;color:var(--ocean);" href="index.html"><span class="en">Back to home</span><span class="zh">返回首页</span></a>
         </div>
       </div>
@@ -139,6 +244,23 @@
     <div class="wrap footer-bottom"><span>© 2026 ChinaEase · <span class="en">All rights reserved</span><span class="zh">版权所有</span></span><span><span class="en">Made with care for foreigners in China</span><span class="zh">为在华外国人用心打造</span></span></div>
   </footer>
 
+  <!-- Booking modal -->
+  <div class="modal-overlay" id="bookModal">
+    <div class="modal">
+      <button class="close" data-close aria-label="Close">&times;</button>
+      <h3><span class="en">Book a Consultation</span><span class="zh">预约咨询</span></h3>
+      <p data-book-service></p>
+      <img class="qr" src="assets/img/wechat-qr.jpg" alt="WeChat QR" />
+      <div class="contact-info" style="grid-template-columns:1fr;">
+        <div class="contact-row"><span class="ico" aria-hidden="true">✉</span><div><b><span class="en">Email</span><span class="zh">邮箱</span></b><span>tachikomaver2@gmail.com</span></div></div>
+        <div class="contact-row"><span class="ico" aria-hidden="true">💬</span><div><b><span class="en">WeChat</span><span class="zh">微信</span></b><span>yc</span></div></div>
+        <div class="contact-row"><span class="ico" aria-hidden="true">📞</span><div><b><span class="en">Phone</span><span class="zh">电话</span></b><span>+86 13716120086</span></div></div>
+      </div>
+      <p class="hint"><span class="en">Scan the QR to add WeChat "yc" and mention the service — we'll confirm details &amp; payment.</span><span class="zh">扫码加微信「yc」并说明服务，我们确认细节与付款。</span></p>
+    </div>
+  </div>
+
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/jobs.js"></script>
 </body>
 </html>
