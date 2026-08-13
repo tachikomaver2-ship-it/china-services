@@ -37,9 +37,9 @@
 
   // ── STEP 1: Fill in your EmailJS credentials ──
   var CONFIG = {
-    PUBLIC_KEY:  "YOUR_EMAILJS_PUBLIC_KEY",     // e.g. "pk_abc123..."
-    SERVICE_ID:  "YOUR_EMAILJS_SERVICE_ID",     // e.g. "service_abc123"
-    TEMPLATE_ID: "YOUR_EMAILJS_TEMPLATE_ID",    // e.g. "template_chinaease"
+    PUBLIC_KEY:  "3LFsBrMJxAKNN0iTy",           // EmailJS Public Key (Account → General)
+    SERVICE_ID:  "service_z16syjd",            // EmailJS Email Service ID (Gmail → tachikomaver2@gmail.com)
+    TEMPLATE_ID: "template_1l732as",           // EmailJS Email Template ID
     TO_EMAIL:    "tachikomaver2@gmail.com"       // where notifications arrive
   };
 
