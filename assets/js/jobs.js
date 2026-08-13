@@ -114,8 +114,12 @@
     var b = e.target.closest("[data-book]");
     if (b) {
       e.preventDefault();
+      var svc = b.getAttribute("data-book");
       var p = document.querySelector("[data-book-service]");
-      if (p) p.textContent = b.getAttribute("data-book");
+      if (p) p.textContent = svc;
+      // Also set hidden field for email
+      var hidden = document.getElementById("jobServiceType");
+      if (hidden) hidden.value = svc;
       openBook();
       return;
     }
@@ -123,6 +127,17 @@
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") closeBook();
+  });
+
+  // Bind job booking form to email
+  document.addEventListener("DOMContentLoaded", function () {
+    var jform = document.getElementById("jobsBookingForm");
+    if (jform && window.ChinaEaseFormMailer) {
+      ChinaEaseFormMailer.bind(jform, {
+        serviceType: "Job Concierge Service / 求职管家服务",
+        pageLabel: "jobs.html"
+      });
+    }
   });
 
   render();

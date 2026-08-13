@@ -487,3 +487,22 @@ body.lang-zh .en { display: none !important; }
   .pdf-item.premium .pdf-actions { width: 100%; }
   .modal { padding: 24px; }
 }
+
+/* ── Form feedback (email notification) ── */
+.form-feedback {
+  display: none; padding: 18px 20px; border-radius: var(--radius-md);
+  font-size: 15px; font-weight: 600; line-height: 1.5;
+  text-align: center; white-space: pre-line; animation: fadeInUp 0.3s ease;
+}
+.form-feedback-ok {
+  background: linear-gradient(135deg, rgba(16,185,129,0.12), rgba(5,150,105,0.08));
+  color: #047857; border: 1px solid rgba(16,185,129,0.3);
+}
+.form-feedback-error {
+  background: linear-gradient(135deg, rgba(239,68,68,0.1), rgba(220,38,38,0.06));
+  color: #b91c1c; border: 1px solid rgba(239,68,68,0.25);
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
