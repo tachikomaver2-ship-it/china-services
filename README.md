@@ -35,7 +35,8 @@ china-services/
 ## 🚀 Deploy
 
 Static site — deploy the folder to any static host (CloudStudio / GitHub Pages / Netlify).
-Live preview: https://cde70f17288e455aa26ff7ef47259118.sh3.agentos-app.net
+Primary domain (GitHub Pages): https://tachikomaver2-ship-it.github.io/china-services/
+CloudStudio mirror: https://cde70f17288e455aa26ff7ef47259118.sh3.agentos-app.net
 
 ## 🔑 Paid HSK materials (admin)
 
